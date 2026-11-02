@@ -16,6 +16,6 @@ Every place in chapters 01–12 where `np.arange` is called with at least one fl
 
 ## Patterns
 
-- **Half-integer start (`x.5`) with a stop ending in `.6`.** Examples are `np.arange(30.5, 69.6, 1)` and `np.arange(5.5, 46.6, 1)`. The `.5` start centres each bin on an integer, and the `.6` stop makes sure the last bin edge is included, because the stop value is exclusive.
+- **Half-integer start (**`x.5`**) with a stop ending in** `.6`**.** Examples are `np.arange(30.5, 69.6, 1)` and `np.arange(5.5, 46.6, 1)`. The `.5` start centres each bin on an integer, and the `.6` stop makes sure the last bin edge is included, because the stop value is exclusive.
 - **Fractional step.** Examples are `0.005`, `0.1`, and `-0.5`. These are the cases most at risk of floating-point rounding, so the number of elements can differ from what you expect. `np.linspace` is the safer alternative when you need an exact count.
-- **Nearly all of these are histogram `bins=`.** The one exception is `05/2/Ranges.ipynb`, which uses a float `np.arange` to explain how ranges work.
+- **Nearly all of these are histogram** `bins=`**.** The one exception is `05/2/Ranges.ipynb`, which uses a float `np.arange` to explain how ranges work.
