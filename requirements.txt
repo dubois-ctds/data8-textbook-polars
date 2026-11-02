@@ -3,3 +3,7 @@ mystmd
 numpy
 datascience
 matplotlib
+polars
+hvplot
+folium
+scipy
