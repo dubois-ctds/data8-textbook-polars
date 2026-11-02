@@ -1,9 +1,17 @@
-jupyter-book>=2
-mystmd
-numpy
-datascience
-matplotlib
-polars
-hvplot
-folium
-scipy
+# Versions that ran Chapters 1-12 on Python 3.14.
+jupyter-book==2.1.7
+mystmd==1.12.0
+jupyterlab==4.6.5
+ipykernel==7.4.0
+ipython==9.18.0
+numpy==2.5.4
+pandas==3.1.0
+pyarrow==26.0.0
+scipy==1.18.1
+matplotlib==3.11.2
+plotly==7.1.0
+datascience==0.18.1
+polars==2.1.0
+hvplot==0.12.2
+holoviews==1.23.2
+folium==0.20.0
